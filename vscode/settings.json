@@ -1,0 +1,98 @@
+{
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "extensions.ignoreRecommendations": true,
+  "editor.fontFamily": "'Comic Code', 'monospace', monospace",
+  "vscode_custom_css.imports": ["file:///home/munhwas1140/vsccustom.css"],
+  "vscode_custom_css.statusbar": true,
+  "explorer.compactFolders": false,
+  "notebook.compactView": false,
+  "go.toolsManagement.autoUpdate": true,
+  "vim.useCtrlKeys": false,
+  //   "prettier.resolveGlobalModules": true,
+  //   "prettier.singleQuote": true,
+  "redhat.telemetry.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "none",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  //   "workbench.colorCustomizations": {
+  //     "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+  //     "editorBracketMatch.background": "#e1ff007b",
+  //     "editorIndentGuide.activeBackground1": "#e1ff00cd",
+  //     "editorIndentGuide.background1": "#545454"
+  //   },
+  //   "editor.tokenColorCustomizations": {
+  //     // "functions": "#acd5d8",
+  //     "functions": "#ffffff",
+  //     "textMateRules": [
+  //       {
+  //         "scope": "keyword.operator.new",
+  //         "settings": {
+  //           //   "foreground": "#acd5d8"
+  //           "foreground": "#ffffff"
+  //         }
+  //       }
+  //     ]
+  //   },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "seti-minimal-folder",
+  //   "editor.bracketPairColorization.enabled": false,
+  //   "editor.guides.bracketPairsHorizontal": false,
+  //   "editor.detectIndentation": false,
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[sass]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typecript]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.tabSize": 4
+  },
+  "gitlens.currentLine.enabled": false,
+  "git.autofetch": true,
+  "[c]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+
+  "clang-format.language.c.style": "file:/home/munhwas1140/.config/.clang-format"
+}
